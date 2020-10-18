@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+/*nav li.menu {float:left;border-right:thin solid #999;}*/
+/*aside {
+	float:right;
+    background-color:#CCC;
+    color: green;
+	margin-top:40%;
+    margin-right: 0%;
+	width:15%; height:100%;
+    padding: 1%;z-index:99;border:0px;display:list-item;position:absolute;}
+	
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN*/
+nav ul {list-style:none; color:#FFF;font-family:Verdana, Geneva, sans-serif, cursive;float:left}
+nav li a:hover {background-color: rgb(230,175,0);color: white;}
+
+/* ESTILOS DEL CARRUSEL */
+
+.carousel {
+  margin-bottom: 1rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 98%;
+  height: 32rem;
+}
+.carousel-item > h2 {
+  color:#009;
+}
+
+/* ESTILOS GENERALES */
+body {margin-left:30px; margin-top:30px;}
+body h4{margin-left:30px;}
+body div{margin-left:10px;}
+body div li.list{list-style-type:disc;text-align:justify}
+div.well{text-align:justify;}
+p.vision{text-align:center;font-family:Verdana, Geneva, sans-serif;font-size:20px;color:#06F;}
+p.card-text {text-align:justify;}
+p.valor {text-align:justify;}
+img.imgredonda {width:150px; height:150px; border-radius:750px; border:7px solid rgb(230,175,0)}
+
+iframe {margin-left:10px;border:hidden;border-color:#333}
+footer {margin-left:0px;margin-bottom:0px;background-color:#006;}
+footer p {margin-left:10px;color:#FFF;font-family:Verdana, Geneva, sans-serif, cursive;font-size:12;}
+footer p.tb{text-align:center;font-family:"Comic Sans MS", cursive;font-size:16px}
+footer svg {color:#FFF;}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
